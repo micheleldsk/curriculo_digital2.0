@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #7c6083;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-full {
+    height: 100%;
+}
+
+#master {
+    height: 75%;
+    box-shadow: 0 0 20px 15px #49045a, 0 0 20px 15px #5c146e, 0 0 20px 15px #8e37a3;
+}
+
+#menu-side {
+    background: rgb(143, 104, 143);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#picture {
+    width: 80%;
+    border-radius: 50%;
+    /* border: 2px solid rgb(219, 215, 215); */
+    box-shadow: 0 0 20px 15px #49045a, 0 0 20px 15px #5c146e, 0 0 20px 15px #8e37a3;
+}
+
+.nav-bar {
+    padding-top: 10%;
+}
+
+.menu-list {
+    list-style-type: none;
+    font: arial;
+    font-size: clamp(0.6rem, 2vw, 1.5rem);
+    text-decoration: none;
+}
+
+ul li a {
+    color: #5c146e;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: azure;
+}
+
+#info-side {
+    background: rgb(206, 206, 206);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#info-dados>h1 {
+    font: arial;
+    font-size: clamp(0.6rem, 2vw, 2.3rem);
+    color: rgb(105, 106, 108);
+}
+
+#info-dados>h1>span {
+    color: rgb(143, 104, 143);
+}
+
+#info-dados>h6 {
+    font: arial;
+    font-size: clamp(0.6rem, 2vw, 1.3rem);
+    color: rgb(105, 106, 108);
+}
+
+#info-dados>h6>span>a {
+    color: rgb(143, 104, 143);
+    text-decoration: none;
+}
+
+#info-list {
+    padding: 2%;
+}
+
+#info-list>ul>li {
+    font: arial;
+    color: rgb(105, 106, 108);
+    font-size: clamp(0.6rem, 2vw, 1.1rem);
+}
+
+#icons-social>a>i {
+    color: rgb(143, 104, 143);
+    font-size: clamp(0.6rem, 2vw, 1.5rem);
+    margin: 0.5%;
+}
+
+.conhecimentos>h1 {
+    font: arial;
+    font-size: clamp(0.6rem, 2vw, 2.3rem);
+    color: rgb(105, 106, 108);
+}
+
+.conhecimentos>h1>span {
+    color: rgb(143, 104, 143);
+}
+
+.conhecimentos>ul>li {
+    font: arial;
+    color: rgb(105, 106, 108);
+    font-size: clamp(0.6rem, 2vw, 1.1rem);
+}
+
+.conhecimentos>p {
+    font: arial;
+    font-style: italic;
+    color: rgb(105, 106, 108);
+    font-size: clamp(0.6rem, 2vw, 1rem);
+}
+
+.objetivos>h1 {
+    font: arial;
+    font-size: clamp(0.6rem, 2vw, 2.3rem);
+    color: rgb(105, 106, 108);
+}
+
+.objetivos>h1>span {
+    color: rgb(143, 104, 143);
+}
+
+.objetivos>p {
+    font: arial;
+    font-size: clamp(0.6rem, 2vw, 1.8rem);
+    color: rgb(105, 106, 108);
+}
+
+.objetivos>ul>li {
+    font: arial;
+    color: rgb(105, 106, 108);
+    font-size: clamp(0.6rem, 2vw, 1.1rem);
+}
